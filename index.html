@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="icon" href="resources/favicon.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>movie list</title>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <div class="subhead">
+        <div class="subhead-movies">
+          <p>СПИСОК ФИЛЬМОВ</p>
+        </div>
+        <div class="subhead-year">
+          <p>2023</p>
+        </div>
+      </div>
+      <h1 class="title">Посмотреть</h1>
+      <div class="movies-content">
+        <div class="wrapper-input">
+            <input class="movie-input" id="new-movie" type="text" placeholder="Добавить фильм">
+            <button class="movie-btn" id="addbutton"><img class="vector" src="resources/Vector.png" 
+              alt="На кнопке стрелочка на право"></button>
+        </div>
+        <div class="movies-tasks-count">
+          <span>Всего фильмов:</span>
+          <strong id="count">0</strong>
+        </div>
+        <div class="movies-list" id="movies"></div>
+         
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
