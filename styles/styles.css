@@ -186,8 +186,102 @@ body {
     background-color: rgb(46, 45, 45);
 } 
 
-.alert {
-    background-color: #6532F8;
+@media(max-width: 960px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .movie-title {
+        width: 470px;
+    }
 }
+
+
+@media(max-width: 767px) {
+
+    .subhead {
+        margin-left: 15px;
+    }
+
+    .title {
+        font-size: 90px;
+        margin-left: 15px;
+    }
+
+    .movie-input {
+        height: 42px;
+    }
+
+    .movie-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .movies-content {
+        padding: 35px 15px;
+    }
+
+    .movie-title {
+        width: 390px;
+    }
+
+    
+}
+
+@media(max-width: 650px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .movie-input {
+        max-width: 300px;
+    }
+}
+
+
+@media(max-width: 570px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .movie-input {
+        max-width: 300px;
+    }
+
+    .movie-title {
+        width: 270px;
+    }
+
+    .movies-list::-webkit-scrollbar {
+        width: 10px;
+    }
+}
+
+@media(max-width: 450px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .movie-input {
+        max-width: 175px;
+        font-size: 20px;
+    }
+
+    .movie-title {
+        width: 150px;
+    }
+
+    .movie-task {
+        font-size: 16px;
+    }
+}
+
+
+
 
 
